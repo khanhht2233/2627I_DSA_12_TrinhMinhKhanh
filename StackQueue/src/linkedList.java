@@ -8,11 +8,7 @@ public class linkedList {
             this.next = null;
         }
     }
-    private Node first;
-
-    public linkedList(){
-        this.first = null;
-    }
+    private Node first = null;
 
     public void addFirst(int data){
         Node tmp = new Node(data);
@@ -35,20 +31,54 @@ public class linkedList {
 
     public void removeFirst(){
         if (first == null){
-            System.out.println("khong the xoa phan tu");
             return;
         }
         first = first.next;
     }
 
-    public void printList(){
-        if (first == null) return;
-        Node tmp = first;
-        while (first == null){
-            System.out.println(first.data + " -> ");
-            first = first.next;
+    public void removeLast(){
+        if(first == null) return;
+        Node low = null, high = first;
+        while(high.next != null){
+            low = high;
+            high = high.next;
         }
-        System.out.println("null");
+        if(low == null){
+            first = null;
+        }else{
+            low.next = null;
+        }
+    }
+    public void printList(){
+        Node tmp = first;
+        if (tmp == null) System.out.print("null");
+        else {
+            while (tmp != null) {
+                System.out.print(tmp.data + " -> ");
+                tmp = tmp.next;
+            }
+            System.out.print("null\n");
+        }
+    }
+
+    public int getSize(){
+        int cnt = 0;
+        Node tmp = first;
+
+        while (tmp != null){
+            cnt += 1;
+            tmp = tmp.next;
+        }
+        return cnt;
+    }
+
+    public static void main() {
+        linkedList list = new linkedList();
+        list.addFirst(1);
+        list.addFirst(2);
+
+        list.printList();
+        System.out.println(list.getSize());
     }
 
 }

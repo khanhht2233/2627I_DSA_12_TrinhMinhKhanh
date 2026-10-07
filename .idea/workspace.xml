@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="244bb463-2fa0-4d23-817d-5904aab0b04e" name="Changes" comment="Luyen tap LinkedList, Stack, Queue" />
+    <list default="true" id="244bb463-2fa0-4d23-817d-5904aab0b04e" name="Changes" comment="Luyen tap LinkedList, Stack, Queue">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackQueue/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StackQueue/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackQueue/src/linkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/StackQueue/src/linkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StackQueue/Main$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StackQueue/Main$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StackQueue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StackQueue/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StackQueue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StackQueue/linkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StackQueue/linkedList.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +56,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.linkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.w4_tailop_25021831.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
@@ -55,7 +68,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/DSA/StackQueue/src/Main.java&quot;
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/DSA/Sort/src/Main.java&quot;
   }
 }</component>
   <component name="SharedIndexes">
@@ -92,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Luyen tap LinkedList, Stack, Queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Luyen tap LinkedList, Stack, Queue" />
+    <MESSAGE value="Sửa tên bài tập trên Hackerank" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sửa tên bài tập trên Hackerank" />
   </component>
 </project>

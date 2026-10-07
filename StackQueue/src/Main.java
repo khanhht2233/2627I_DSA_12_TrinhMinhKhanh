@@ -45,19 +45,19 @@ class Main{
             System.out.print(tmp.data + " -> ");
             tmp = tmp.next;
         }
-        System.out.println("null");
+        System.out.print("null");
     }
     public static void main(String[] args) {
             Main list = new Main();
 
             list.addFirst(20);
-            list.addFirst(10); // Danh sách: 10 -> 20 -> null
-            list.addLast(30);   // Danh sách: 10 -> 20 -> 30 -> null
+            list.addFirst(10);
+            list.addLast(30);
 
             System.out.print("Danh sách hiện tại: ");
             list.printList();
 
-            list.removeFirst(); // Xóa 10
+            list.removeFirst();
             System.out.print("Sau khi removeFirst: ");
             list.printList();
         }

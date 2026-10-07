@@ -24,16 +24,14 @@ public class BasicsSort {
             while (j >= 0 && key < a[j]){
                 a[j+1] = a[j];
                 j -= 1;
-                for(int e = 0; e < n; e++){
-                    System.out.print(a[e] + " ");
-                }
-                System.out.println("\n");
             }
             a[j+1] = key;
+
+            for (int k = 0; k < n; k++) {
+                System.out.print(a[k] + " ");
+            }
+            System.out.print("\n");
         }
-//        for(int f = 0; f < n; f++){
-//            System.out.print(a[f] + " ");
-//        }
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -44,9 +42,6 @@ public class BasicsSort {
             arr[i] = sc.nextInt();
         }
         insertionSort(arr);
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
-        }
 
 //        for (int i = n; i > 0 ; i--) {
 //            int cnt = 0;
